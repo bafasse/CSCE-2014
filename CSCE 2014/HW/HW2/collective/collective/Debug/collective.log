@@ -1,0 +1,17 @@
+﻿  collective.cpp
+c:\users\blakef\onedrive\csce\summer 2017\csce 2014\hw\hw2\collective\collective\collective.cpp(62): warning C4101: 'left': unreferenced local variable
+  c:\users\blakef\onedrive\csce\summer 2017\csce 2014\hw\hw2\collective\collective\collective.cpp(473): note: see reference to function template instantiation 'void baselineQuickSort<std::string>(T [],int,int)' being compiled
+          with
+          [
+              T=std::string
+          ]
+c:\users\blakef\onedrive\csce\summer 2017\csce 2014\hw\hw2\collective\collective\collective.cpp(61): warning C4101: 'right': unreferenced local variable
+c:\users\blakef\onedrive\csce\summer 2017\csce 2014\hw\hw2\collective\collective\collective.cpp(187): warning C4101: 'left': unreferenced local variable
+  c:\users\blakef\onedrive\csce\summer 2017\csce 2014\hw\hw2\collective\collective\collective.cpp(484): note: see reference to function template instantiation 'void quickSortHybrid<std::string>(T [],int,int)' being compiled
+          with
+          [
+              T=std::string
+          ]
+c:\users\blakef\onedrive\csce\summer 2017\csce 2014\hw\hw2\collective\collective\collective.cpp(186): warning C4101: 'right': unreferenced local variable
+  collective.vcxproj -> C:\Users\BlakeF\OneDrive\CSCE\Summer 2017\CSCE 2014\HW\HW2\collective\Debug\collective.exe
+  collective.vcxproj -> C:\Users\BlakeF\OneDrive\CSCE\Summer 2017\CSCE 2014\HW\HW2\collective\Debug\collective.pdb (Full PDB)

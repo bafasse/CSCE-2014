@@ -1,0 +1,63 @@
+Expression: 4
+Postfix:    4
+Result:     4
+
+Expression: 3 + 5
+Postfix:    3 5 +
+Result:     8
+
+Expression: 2.2 * 3.1 + 1.0
+Postfix:    2.2 3.1 * 1.0 +
+Result:     7.82
+
+Expression: 2.2 + 3.1 * 1.0
+Postfix:    2.2 3.1 1.0 * +
+Result:     5.3
+
+Expression: 5 / 0
+Postfix:    5 0 /
+Result:     inf
+
+Expression: 8 - 1
+Postfix:    8 1 -
+Result:     7
+
+Expression: 5 + 3 - 2 * 7 / 2 + 3
+Postfix:    5 3 + 2 7 * 2 / - 3 +
+Result:     4
+
+Expression: ( 3 + 5 )
+Postfix:    3 5 +
+Result:     8
+
+Expression: ( 3 * 5 ) + 2 - ( 8 * 4 )
+Postfix:    3 5 * 2 + 8 4 * -
+Result:     -15
+
+Expression: ( ( 3 * 1.2 ) / ( 1.0 + 3 ) ) - 1
+Postfix:    3 1.2 * 1.0 3 + / 1 -
+Result:     -0.1
+
+Expression: ( ( ( 1 + ( 2 * 4 ) / 3 ) ) * 2 )
+Postfix:    1 2 4 * 3 / + 2 *
+Result:     7.33333
+
+Expression: 4 + 4 5
+Postfix:    4 4 5 +
+Expression was malformed.
+
+Expression: 4 + + 3
+Postfix:    4 + 3 +
+Expression was malformed.
+
+Expression: ( 5 + 3
+Mismatched parentheses!
+
+Expression: 5 + 3 )
+Mismatched parentheses!
+
+Expression: ( ( 5 * 2 )
+Mismatched parentheses!
+
+Expression: ( ( 2 * 3 )
+Mismatched parentheses!

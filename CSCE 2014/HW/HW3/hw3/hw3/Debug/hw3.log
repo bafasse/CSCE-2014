@@ -1,0 +1,37 @@
+﻿  hw3.cpp
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(94): error C2660: 'Matrix<int>::resize': function does not take 0 arguments
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(90): note: while compiling class template member function 'Matrix<int>::Matrix(const Matrix<int> &)'
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\hw3.cpp(92): note: see reference to function template instantiation 'Matrix<int>::Matrix(const Matrix<int> &)' being compiled
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\hw3.cpp(25): note: see reference to class template instantiation 'Matrix<int>' being compiled
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(85): error C2660: 'Matrix<int>::resize': function does not take 0 arguments
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(81): note: while compiling class template member function 'Matrix<int>::Matrix(const int,const int)'
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\hw3.cpp(25): note: see reference to function template instantiation 'Matrix<int>::Matrix(const int,const int)' being compiled
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(111): error C2065: 'mRow': undeclared identifier
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(110): note: while compiling class template member function 'void Matrix<int>::addRow(void)'
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\hw3.cpp(77): note: see reference to function template instantiation 'void Matrix<int>::addRow(void)' being compiled
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(111): error C2065: 'mCol': undeclared identifier
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(117): error C2065: 'mRow': undeclared identifier
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(116): note: while compiling class template member function 'void Matrix<int>::addCol(void)'
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\hw3.cpp(78): note: see reference to function template instantiation 'void Matrix<int>::addCol(void)' being compiled
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(117): error C2065: 'mCol': undeclared identifier
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(128): error C3861: 'min': identifier not found
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(122): note: while compiling class template member function 'void Matrix<int>::resize(const int,const int)'
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\hw3.cpp(71): note: see reference to function template instantiation 'void Matrix<int>::resize(const int,const int)' being compiled
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(130): error C3861: 'min': identifier not found
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(133): error C2440: '=': cannot convert from 'int *' to 'int'
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(133): note: There is no context in which this conversion is possible
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(133): error C2143: syntax error: missing ';' before '}'
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(161): error C2065: 'r': undeclared identifier
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(160): note: while compiling class template member function 'void Matrix<int>::fill(const T &)'
+          with
+          [
+              T=int
+          ]
+  d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\hw3.cpp(32): note: see reference to function template instantiation 'void Matrix<int>::fill(const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(161): error C2065: 'c': undeclared identifier
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(162): error C2065: 'r': undeclared identifier
+d:\user\blake\onedrive\csce\summer 2017\csce 2014\hw\hw3\hw3\hw3\matrix.h(162): error C2065: 'c': undeclared identifier

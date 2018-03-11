@@ -1,0 +1,12 @@
+if (data[i] > pivot)
+{
+	swap(data[i], data[r]);
+	--r;
+}
+else if (data[i] < pivot)
+{
+	swap(data[l], data[i]);
+	++l;
+}
+else if(data[i] == pivot)
+	++i;
